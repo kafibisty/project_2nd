@@ -7,3 +7,35 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;}
+
+
+    /* নতুন প্যারাগ্রাফের জন্য স্টাইল */
+.new-paragraph {
+    font-size: 1.1rem;
+    color: #27ae60;
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(39, 174, 96, 0.1);
+    border-radius: 10px;
+    border-left: 5px solid #27ae60;
+    animation: fadeIn 1s ease;
+}
+
+.description {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin: 15px 0;
+    padding: 10px;
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
